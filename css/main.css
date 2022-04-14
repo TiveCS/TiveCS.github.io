@@ -1,0 +1,25 @@
+:root{
+    --color-primary-darker: #502EFF;
+    --color-primary-dark: #6647FF;
+    --color-primary: #7B61FF;
+    --color-primary-light: #907AFF;
+    --color-primary-lighter: #A694FF;
+    --color-primary-super-light: #BBADFF;
+    --color-text: #EFEFEF;
+    --color-background: #1D1D1D;
+    --color-background-light: #262626;
+    --color-background-nav: #1A1A1A;
+
+    --font-family: 'Plus Jakarta Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-size-title: 48px;
+    --font-size-subtitle: 20px;
+    --font-size-regular: 16px;
+    --font-size-paragraph: 14px;
+    --font-size-techstack: 12px;
+
+}
+
+html{
+    margin: 0;
+    font-family: var(--font-family);
+}
