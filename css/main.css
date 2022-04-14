@@ -11,15 +11,16 @@
     --color-background-nav: #1A1A1A;
 
     --font-family: 'Plus Jakarta Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-weight: 400;
     --font-size-title: 48px;
     --font-size-subtitle: 20px;
     --font-size-regular: 16px;
     --font-size-paragraph: 14px;
     --font-size-techstack: 12px;
-
 }
 
 html{
     margin: 0;
     font-family: var(--font-family);
+    font-weight: var(--font-weight);
 }
