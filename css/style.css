@@ -1,0 +1,12 @@
+main{
+    min-height: 90%;
+    padding: 0 10vw;
+
+    display: flex;
+    align-items: center;
+}
+
+#intro-greeting{
+    font-size: 3rem;
+    font-weight: 500;
+}

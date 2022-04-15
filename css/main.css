@@ -36,6 +36,8 @@ html{
 
     font-family: var(--font-family);
     font-weight: var(--font-weight);
+
+    color: var(--color-text);
     background-color: var(--color-background);
 
     height: 100vh;
@@ -57,4 +59,9 @@ a{
 }
 .icon:hover{
     background-color: var(--color-gray-dark-transparent);
+}
+
+.text-effect{
+    background-color: var(--color-primary);
+    color: var(--color-background);
 }
