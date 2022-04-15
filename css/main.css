@@ -9,6 +9,14 @@
     --color-background: #1D1D1D;
     --color-background-light: #262626;
     --color-background-nav: #1A1A1A;
+    --color-gray-super-dark: #9E9E9E;
+    --color-gray-very-dark: #ABABAB;
+    --color-gray-dark: #B8B8B8;
+    --color-gray: #C4C4C4;
+    --color-gray-light: #D1D1D1;
+    --color-gray-very-light: #DEDEDE;
+    --color-gray-white: #EBEBEB;
+    --color-gray-dark-transparent: rgba(158, 158, 158, 0.15);
 
     --font-family: 'Plus Jakarta Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --font-weight: 400;
@@ -17,10 +25,35 @@
     --font-size-regular: 16px;
     --font-size-paragraph: 14px;
     --font-size-techstack: 12px;
+
+    --screen-desktop-width-min: 1024px;
+    --screen-mobile-width-max: 414px; 
 }
 
 html{
     margin: 0;
+    font-size: 100%;
+
     font-family: var(--font-family);
     font-weight: var(--font-weight);
+
+    height: 100vh;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+.icon{
+    padding: 0.5rem;
+    border-radius: 10%;
+    filter: invert(1);
+}
+.icon:hover{
+    background-color: var(--color-gray-dark-transparent);
 }
