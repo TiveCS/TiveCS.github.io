@@ -65,3 +65,12 @@ a{
     background-color: var(--color-primary);
     color: var(--color-background);
 }
+
+p{
+    letter-spacing: 0.15rem;
+}
+
+.headline{
+    font-size: 3rem;
+    font-weight: 500;
+}

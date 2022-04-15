@@ -1,12 +1,19 @@
 main{
     min-height: 90%;
-    padding: 0 10vw;
+    padding: 0 15vw;
 
     display: flex;
     align-items: center;
 }
 
-#intro-greeting{
-    font-size: 3rem;
-    font-weight: 500;
+#intro-tagline{
+    color: var(--color-gray);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
 }
