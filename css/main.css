@@ -66,11 +66,19 @@ a{
     color: var(--color-background);
 }
 
-p{
-    letter-spacing: 0.15rem;
-}
 
 .headline{
+    letter-spacing: 0.15rem;
     font-size: 3rem;
     font-weight: 500;
+}
+
+.tagline{
+    font-size: 0.775rem;
+    font-weight: 300;
+
+    letter-spacing: 0.125rem;
+    line-height: 1.85rem;
+
+    margin: 4vh 0;
 }
